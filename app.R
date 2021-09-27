@@ -61,10 +61,3 @@ server <- function(input, output, session) {
 shinyApp(ui, server)
 
 
-#kpi_code <- all_kpis_df[all_kpis_df$member_title == all_kpis[1], ][["member_id"]]
-
-#res <- get_infos(cities=c("Linköping"), kpis = c(kpi_code), years = c(2009, 2021))
-
-#plot(x=res$period, y=res$value)
-
-#kpi_code seq(2012, 2021, 1)
